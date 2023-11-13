@@ -6,7 +6,7 @@ import {StyleSheet, Text, View} from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Router from './router';
-import { UploadPhoto } from './pages';
+import { Login, UploadPhoto } from './pages';
 
 
 const Stack = createNativeStackNavigator();
@@ -14,8 +14,9 @@ const App = () => {
   
   return (
     <NavigationContainer>
-      {/* <Router/> */}
-      <UploadPhoto/>
+      <Router/>
+      {/* <UploadPhoto/> */}
+      {/* <Login /> */}
     </NavigationContainer>
     
   );

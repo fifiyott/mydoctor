@@ -3,7 +3,7 @@ import React from 'react';
 import ILLogo from '../../assets/illustration/logo.svg';
 import {Button, Link, Input, Gap} from '../../components';
 
-const Login = () => {
+const Login = ({navigation}) => {
   return (
     <View style={styles.page}>
       <ILLogo />
@@ -14,9 +14,9 @@ const Login = () => {
       <Gap height={10} />
       <Link title="Forgot My Password" />
       <Gap height={35} />
-      <Button title="Sign In" />
+      <Button title="Sign In" onPress={() => navigation.replace('MainApp')} />
       <Gap height={25} />
-      <Link title="Create New Account?" size="cna" align="cna" />
+      <Link title="Create New Account?" size="cna" align="cna" onPress={() => navigation.navigate('Register')} />
     </View>
   );
 };
