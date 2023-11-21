@@ -1,17 +1,12 @@
 import {StyleSheet, Text, View, TouchableOpacity} from 'react-native';
 import React from 'react';
-import IconDoctor from '../../../assets/icon/icdoctor.svg';
-import IconDoctorActive from '../../../assets/icon/icdoctor-active.svg';
-import IconMessages from '../../../assets/icon/icmessages.svg';
-import IconMessagesActive from '../../../assets/icon/icmessages-active.svg';
-import IconHospital from '../../../assets/icon/ichospital.svg';
-import IconHospitalActive from '../../../assets/icon/ichospital-active.svg';
 import {colors} from '../../../utils';
+import { IconDoctor, IconDoctorActive, IconMessagesActive, IconMessages, IconHospitalActive, IconHospital } from '../../../assets';
 
 const TabItem = ({title, active, onLongPress, onPress}) => {
   const Icon = () => {
     if (title === 'Doctor') {
-      return active ? <IconDoctorActive /> : <IconDoctor />;
+      return active ? <IconDoctorActive/> : <IconDoctor />;
     }
     if (title === 'Messages') {
       return active ? <IconMessagesActive /> : <IconMessages />;

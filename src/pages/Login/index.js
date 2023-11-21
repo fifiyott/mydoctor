@@ -1,7 +1,7 @@
 import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
-import ILLogo from '../../assets/illustration/logo.svg';
 import {Button, Link, Input, Gap} from '../../components';
+import { ILLogo } from '../../assets';
 
 const Login = ({navigation}) => {
   return (

@@ -1,8 +1,7 @@
 import React from 'react';
 import {ImageBackground, StyleSheet, Text, View} from 'react-native';
-import ILLogo from '../../assets/illustration/logo.svg';
 import {Button, Gap} from '../../components';
-import ILBackground from '../../assets/illustration/get-started.jpg';
+import { ILBackground, ILLogo } from '../../assets';
 
 const GetStarted = ({navigation}) => {
   return (

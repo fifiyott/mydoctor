@@ -7,7 +7,6 @@ import {
   View,
 } from 'react-native';
 import {colors} from '../../../utils';
-import IconBack from '../../../assets/icon/back_arrow.svg';
 import IconOnly from './IconOnly';
 
 const Button = ({type, title, onPress, iconProp}) => {

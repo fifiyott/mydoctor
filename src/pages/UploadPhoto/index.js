@@ -1,9 +1,8 @@
 import {Image, StyleSheet, Text, View} from 'react-native';
 import React from 'react';
 import {Button, Gap, Header, Link} from '../../components';
-import ILNullPhoto from '../../assets/illustration/photoNull.png';
-import IconAddPhoto from '../../assets/icon/add_photo.svg';
 import {colors} from '../../utils';
+import { ILNullPhoto, IconAddPhoto } from '../../assets';
 
 const UploadPhoto = ({navigation}) => {
   return (

@@ -1,8 +1,8 @@
 import {View, Text, Image, StyleSheet} from 'react-native';
 import React from 'react';
-import dummyUser from '../../../assets/dummy/user.png';
 import {colors} from '../../../utils';
 import { Gap } from '../../atoms';
+import { dummyUser } from '../../../assets';
 
 const HomeProfile = () => {
   return (
