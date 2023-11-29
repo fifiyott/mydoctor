@@ -6,6 +6,7 @@ import IconHospitalActive from './ichospital-active.svg';
 import IconHospital from './ichospital.svg';
 import IconMessagesActive from './icmessages-active.svg';
 import IconMessages from './icmessages.svg';
+import IconStar from './icstar.svg'
 
 export {
   IconAddPhoto,
@@ -16,4 +17,5 @@ export {
   IconHospital,
   IconMessagesActive,
   IconMessages,
+  IconStar
 };
